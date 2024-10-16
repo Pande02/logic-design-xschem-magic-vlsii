@@ -1,0 +1,42 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_64Z3AY in circuit modul_inv (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LGS3BL in circuit modul_inv (0)(1 instance)
+
+Cell modul_inv (1) disconnected node: vdd
+Cell modul_inv (1) disconnected node: in
+Cell modul_inv (1) disconnected node: out
+Cell modul_inv (1) disconnected node: gnd
+
+Subcircuit pins:
+Circuit 1: modul_inv                       |Circuit 2: modul_inv                       
+-------------------------------------------|-------------------------------------------
+IN                                         |in                                         
+OUT                                        |out                                        
+VDD                                        |vdd                                        
+GND                                        |gnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes modul_inv and modul_inv are equivalent.
+
+Subcircuit summary:
+Circuit 1: ring0sc3                        |Circuit 2: ring0sc3                        
+-------------------------------------------|-------------------------------------------
+modul_inv (3)                              |modul_inv (3)                              
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: ring0sc3                        |Circuit 2: ring0sc3                        
+-------------------------------------------|-------------------------------------------
+VDD                                        |vdd                                        
+GND                                        |gnd                                        
+OUT                                        |out                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes ring0sc3 and ring0sc3 are equivalent.
+
+Final result: Circuits match uniquely.
+.
